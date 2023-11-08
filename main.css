@@ -1,0 +1,43 @@
+:root {
+    /* font */
+    --ff0: 'Roboto', sans-serif;
+    --ff1: "Oswald", sans-serif;
+    --ff2: "Quicksand", sans-serif;
+    --fw-light: 300;
+    --fw-regular: 400;
+    --fw-medium: 500;
+    --fw-bold: 700;
+    /* lines */
+    --line-2: 0.2rem;
+    --line-4: 1.25rem;
+    --radius: 0.5rem;
+    --radius2: 0.25rem;
+    /* bg and surface */
+    --col-bg: #1a1b26;
+    --col-surface: #24283b;
+    --col-surface2: #414868;
+    /* primary colors */
+    --col-p-200: #bb9af7;
+    --col-p-500: #9b9ef7;
+    --col-p-700: #7aa2f7;
+    /* secondary colors */
+    --col-s-200: #b4f9f8;
+    --col-s-500: #73daca;
+    --col-s-700: #2ac3de;
+    /* icons, elements, text */
+    --col-on-bg: #9aa5ce;
+    --col-on-surface: #b3badb;
+    --col-on-primary: #1a1b26;
+    --col-on-secondary: #1a1b26;
+  }
+  ::-webkit-scrollbar {
+    width: 0px;
+    display: none;
+  }
+  body {
+    font-family: var(--ff0);
+    background-color: var(--col-bg);
+    transition: all ease-out 200ms;
+    max-width: 100vw;
+    overflow: hidden;
+  }
