@@ -13,7 +13,8 @@
     --radius: 0.5rem;
     --radius2: 0.25rem;
     /* bg and surface */
-    --col-bg: #1a1b26;
+    /* --col-bg: #1a1b26; */
+    --col-bg: #1e1e1e;
     --col-surface: #24283b;
     --col-surface2: #414868;
     /* primary colors */
@@ -27,7 +28,7 @@
     /* icons, elements, text */
     --col-on-bg: #9aa5ce;
     --col-on-surface: #b3badb;
-    --col-on-primary: #1a1b26;
+    --col-on-primary: #1e1e1e;
     --col-on-secondary: #1a1b26;
   }
   ::-webkit-scrollbar {
