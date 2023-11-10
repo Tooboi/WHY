@@ -5,7 +5,7 @@ import { auth } from '@clerk/nextjs';
 
 import UserButton from '../Buttons/UserButton';
 import SignOutButton from '../Buttons/SignOutButton';
-import LogoOrange from '../../../public/images/Logo.svg';
+import Logo from '../../../public/images/Logo.svg';
 
 const SideNav = () => {
   const { userId } = auth();
@@ -17,7 +17,7 @@ const SideNav = () => {
           <div className="flex items-center justify-between">
             <div className="flex items-center justify-start">
             <Link href="/" className="flex ml-2 md:mr-24">
-                <Image priority src={LogoOrange} alt="SoundByte" className="h-10 w-full mr-4" />
+                <Image priority src={Logo} alt="SoundByte" className="h-10 w-full mr-4" />
               </Link>
             </div>
             <div className="flex items-center">
