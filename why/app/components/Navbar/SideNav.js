@@ -6,7 +6,7 @@ import { auth } from '@clerk/nextjs';
 import UserButton from '../Buttons/UserButton';
 import UserTab from '../Buttons/UserTab';
 import SignOutButton from '../Buttons/SignOutButton';
-import LogoOrange from '../../../public/images/LogoText.svg';
+import LogoOrange from '../../../public/images/Logo.svg';
 
 const SideNav = () => {
   const { userId } = auth();
